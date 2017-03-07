@@ -1,11 +1,9 @@
 language: c
-script: 
-  - make
-  - sonar-scanner
 dist: trusty
 sudo: required
 addons:
   sonarqube:
     token:
-      secure: ********* # encrypted value of your token
-      
+      secure: *********
+script: 
+  - sonar-scanner      
