@@ -6,5 +6,4 @@ addons:
     token:
       secure: *********
 script: 
-  - gsd
   - sonar-scanner      
