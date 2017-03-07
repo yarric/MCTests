@@ -5,4 +5,4 @@ addons:
     token:
       secure: *********
 script: 
-  - sonar-scanner      
+  - sonar-scanner
