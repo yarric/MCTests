@@ -1,2 +1,11 @@
 language: c
 script: make
+dist: trusty
+sudo: required
+addons:
+  sonarqube:
+    token:
+      secure: ********* # encrypted value of your token
+script:
+  # other script steps might be done before running the actual SonarQube analysis
+  - sonar-scanner
