@@ -1,5 +1,7 @@
 language: c
-script: make
+script: 
+  - make
+  - sonar-scanner
 dist: trusty
 sudo: required
 addons:
