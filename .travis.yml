@@ -1,4 +1,3 @@
-language: c
 dist: trusty
 sudo: required
 addons:
