@@ -5,4 +5,5 @@ addons:
     token:
       secure: *********
 script: 
+  - echo HELLLO WORLD!
   - sonar-scanner
